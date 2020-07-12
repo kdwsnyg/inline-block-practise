@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            background-color: #B7B7B7;
+            border: 1px solid #fff;
+            text-align: center;
+            font-size: 30px;
+            line-height: 50px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .header, .footer {
+            background-color: #000;
+            height: 100px;
+            border: none;
+            margin: 0 2px;
+        }
+
+        .middle {
+            background-color: #666;
+            border: none;
+            margin: 0 2px;
+        }
+
+        .header div, .middle div, .footer div {
+            display: inline-block;
+            margin: 20px 5px;
+        }
+
+        .logo, .tools {
+            width: 18%;
+        }
+        .search {
+            width: 58%;
+        }
+
+        .middle div {
+            height: 400px;
+            line-height: 400px;
+            margin: 30px 10px;
+            border: 1px solid #000;
+        }
+        .images {
+            width: 77%;
+            background-color: #D1E0E3;
+        }
+        .side-list {
+            width: 18%;
+            background-color: #D8D3E8;
+        }
+
+        .nav {
+            width: 23%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Logo</div>
+        <div class="search">Search</div>
+        <div class="tools">Tools</div>
+    </div>
+    <div class="middle">
+        <div class="images">Images</div>
+        <div class="side-list">Side List</div>
+    </div>
+    <div class="footer">
+        <div class="nav">Nav1</div>
+        <div class="nav">Nav2</div>
+        <div class="nav">Nav3</div>
+        <div class="nav">Nav4</div>
+    </div>
+</body>
+</html>
